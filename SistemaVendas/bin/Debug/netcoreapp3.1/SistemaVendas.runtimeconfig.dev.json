@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Guidu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Guidu\\.nuget\\packages"
+    ]
+  }
+}
