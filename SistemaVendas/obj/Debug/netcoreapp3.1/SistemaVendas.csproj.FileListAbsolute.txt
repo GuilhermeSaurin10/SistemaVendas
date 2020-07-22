@@ -12,8 +12,6 @@ C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\
 C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csprojAssemblyReference.cache
 C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.AssemblyInfoInputs.cache
 C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.AssemblyInfo.cs
-C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csproj.CoreCompileInputs.cache
-C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.RazorAssemblyInfo.cache
 C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.RazorAssemblyInfo.cs
 C:\Users\Guidu\source\repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.TagHelpers.input.cache
