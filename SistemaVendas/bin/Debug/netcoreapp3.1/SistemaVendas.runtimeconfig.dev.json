@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Guidu\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Guidu\\.nuget\\packages"
+      "C:\\Users\\miraduarte\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\miraduarte\\.nuget\\packages"
     ]
   }
 }
