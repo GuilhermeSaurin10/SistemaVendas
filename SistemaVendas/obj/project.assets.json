@@ -637,19 +637,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guidu\\.nuget\\packages\\": {}
+    "C:\\Users\\miraduarte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guidu\\source\\repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+      "projectUniqueName": "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
       "projectName": "SistemaVendas",
-      "projectPath": "C:\\Users\\Guidu\\source\\repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
-      "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guidu\\source\\repos\\SistemaVendas\\SistemaVendas\\obj\\",
+      "projectPath": "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+      "packagesPath": "C:\\Users\\miraduarte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\miraduarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
