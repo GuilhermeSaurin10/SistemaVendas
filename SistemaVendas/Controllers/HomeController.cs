@@ -20,24 +20,10 @@ namespace SistemaVendas.Controllers
             Repositorio = repositorio;
         }
 
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
         public IActionResult Index()
         {
-            Categoria categoria = new Categoria()
-            {
-                Descricao = "Teste"
-            };
-
-            Repositorio.Categoria.Add(categoria);
-            Repositorio.SaveChanges();
-
-            return View();
+            IEnumerable<Categoria> lista = Repositorio.Categoria.ToList();
+            return View(lista);
         }
 
         public IActionResult Privacy()
@@ -50,5 +36,11 @@ namespace SistemaVendas.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        //private readonly ILogger<HomeController> _logger;
+
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
     }
 }
