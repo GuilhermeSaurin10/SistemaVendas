@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SistemaVendas.DAL;
 using SistemaVendas.Entidades;
 using SistemaVendas.Models;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SistemaVendas.Controllers
 {
@@ -23,6 +21,7 @@ namespace SistemaVendas.Controllers
         {
             IEnumerable<Categoria> lista = mContext.Categoria.ToList();
             mContext.Dispose();
+
             return View(lista);
         }
 
@@ -31,7 +30,7 @@ namespace SistemaVendas.Controllers
         {
             CategoriaViewModel viewModel = new CategoriaViewModel();
 
-            if(id != null)
+            if (id != null)
             {
                 var entidade = mContext.Categoria.Where(x => x.Codigo == id).FirstOrDefault();
                 viewModel.Codigo = entidade.Codigo;
@@ -52,7 +51,7 @@ namespace SistemaVendas.Controllers
                     Descricao = entidade.Descricao
                 };
 
-                if(entidade.Codigo == null)
+                if (entidade.Codigo == null)
                 {
                     mContext.Categoria.Add(objCategoria);
                 }
