@@ -8,18 +8,18 @@ using System.Linq;
 
 namespace SistemaVendas.Controllers
 {
-    public class CategoriaController : Controller
+    public class ClienteController : Controller
     {
         protected ApplicationDbContext mContext;
 
-        public CategoriaController(ApplicationDbContext context)
+        public ClienteController(ApplicationDbContext context)
         {
             mContext = context;
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Categoria> lista = mContext.Categoria.ToList();
+            IEnumerable<Cliente> lista = mContext.Cliente.ToList();
             mContext.Dispose();
 
             return View(lista);
@@ -28,36 +28,43 @@ namespace SistemaVendas.Controllers
         [HttpGet]
         public IActionResult Cadastro(int? id)
         {
-            CategoriaViewModel viewModel = new CategoriaViewModel();
+            ClienteViewModel viewModel = new ClienteViewModel();
 
             if (id != null)
             {
-                var entidade = mContext.Categoria.Where(x => x.Codigo == id).FirstOrDefault();
+                var entidade = mContext.Cliente.Where(x => x.Codigo == id).FirstOrDefault();
                 viewModel.Codigo = entidade.Codigo;
-                viewModel.Descricao = entidade.Descricao;
+                viewModel.Nome = entidade.Nome;
+                viewModel.CNPJ_CPF = entidade.CNPJ_CPF;
+                viewModel.Email = entidade.Email;
+                viewModel.Celular = entidade.Celular;
+
             }
 
             return View();
         }
 
         [HttpPost]
-        public IActionResult Cadastro(CategoriaViewModel entidade)
+        public IActionResult Cadastro(ClienteViewModel entidade)
         {
             if (ModelState.IsValid)
             {
-                Categoria objCategoria = new Categoria()
+                Cliente objCliente = new Cliente()
                 {
                     Codigo = entidade.Codigo,
-                    Descricao = entidade.Descricao
+                    Nome = entidade.Nome,
+                    CNPJ_CPF = entidade.CNPJ_CPF,
+                    Email = entidade.Email,
+                    Celular = entidade.Celular
                 };
 
                 if (entidade.Codigo == null)
                 {
-                    mContext.Categoria.Add(objCategoria);
+                    mContext.Cliente.Add(objCliente);
                 }
                 else
                 {
-                    mContext.Entry(objCategoria).State = EntityState.Modified;
+                    mContext.Entry(objCliente).State = EntityState.Modified;
                 }
 
                 mContext.SaveChanges();
@@ -73,7 +80,7 @@ namespace SistemaVendas.Controllers
         [HttpGet]
         public IActionResult Excluir(int id)
         {
-            var ent = new Categoria() { Codigo = id , Descricao = "!"};
+            var ent = new Cliente() { Codigo = id };
             mContext.Attach(ent);
             mContext.Remove(ent);
             mContext.SaveChanges();
