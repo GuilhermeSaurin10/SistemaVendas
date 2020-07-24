@@ -21,7 +21,6 @@ namespace SistemaVendas.Controllers
         {
             IEnumerable<Categoria> lista = mContext.Categoria.ToList();
             mContext.Dispose();
-
             return View(lista);
         }
 

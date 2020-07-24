@@ -41,7 +41,7 @@ namespace SistemaVendas.Controllers
 
             }
 
-            return View();
+            return View(viewModel);
         }
 
         [HttpPost]
