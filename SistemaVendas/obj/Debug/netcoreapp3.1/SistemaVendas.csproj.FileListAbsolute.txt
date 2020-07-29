@@ -63,6 +63,7 @@ C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreap
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
@@ -112,4 +113,3 @@ C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreap
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.dll
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.pdb
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.genruntimeconfig.cache
-C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csprojAssemblyReference.cache
