@@ -114,3 +114,4 @@ C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreap
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.pdb
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.genruntimeconfig.cache
 C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csprojAssemblyReference.cache
+C:\Users\miraduarte\Source\Repos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
