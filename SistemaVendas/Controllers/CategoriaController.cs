@@ -10,7 +10,7 @@ namespace SistemaVendas.Controllers
 {
     public class CategoriaController : Controller
     {
-        protected ApplicationDbContext mContext;
+        readonly ApplicationDbContext mContext;
 
         public CategoriaController(ApplicationDbContext context)
         {
