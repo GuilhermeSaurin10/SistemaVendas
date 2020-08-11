@@ -197,3 +197,4 @@ G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\staticwebassets\
 G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.dll
 G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.pdb
 G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.genruntimeconfig.cache
+G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Razor\Views\Error\Index.cshtml.g.cs

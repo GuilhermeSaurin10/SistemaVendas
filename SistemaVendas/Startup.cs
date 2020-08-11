@@ -12,7 +12,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SistemaVendas.DAL;
 
-
 namespace SistemaVendas
 {
     public class Startup
@@ -27,10 +26,11 @@ namespace SistemaVendas
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(Options =>
+            services.Configure<CookiePolicyOptions>(options =>
             {
-                Options.CheckConsentNeeded = context => true;
-                Options.MinimumSameSitePolicy = SameSiteMode.None;
+                //
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -39,7 +39,7 @@ namespace SistemaVendas
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSession();
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +51,7 @@ namespace SistemaVendas
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
@@ -60,16 +60,12 @@ namespace SistemaVendas
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseSession();
-            app.UseRouting();
 
-            app.UseAuthorization();
-
-
-            app.UseEndpoints(endpoints =>
+            app.UseMvc(routes =>
             {
-                endpoints.MapControllerRoute(
+                routes.MapRoute(
                     name: "default",
-                    pattern: "{controller=Login}/{action=Index}/{id?}");
+                    template: "{controller=Login}/{action=Index}/{id?}");
             });
         }
 
