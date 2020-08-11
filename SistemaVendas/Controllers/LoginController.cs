@@ -60,15 +60,12 @@ namespace SistemaVendas.Controllers
 
                     RedirectToAction("Index", "Home");
                 }
-
                 return View(model);
             }
             else
             {
-
                 return View(model);
             }
-
-        }
+                    }
     }
 }
