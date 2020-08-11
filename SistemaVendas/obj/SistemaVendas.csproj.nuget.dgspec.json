@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
+    "G:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
+    "G:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectUniqueName": "G:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "projectName": "SistemaVendas",
-        "projectPath": "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
-        "packagesPath": "C:\\Users\\miraduarte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miraduarte\\Source\\Repos\\SistemaVendas\\SistemaVendas\\obj\\",
+        "projectPath": "G:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
+        "outputPath": "G:\\Projetos\\SistemaVendas\\SistemaVendas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\miraduarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
