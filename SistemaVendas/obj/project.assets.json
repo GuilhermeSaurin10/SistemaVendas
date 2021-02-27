@@ -4977,11 +4977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+      "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
       "projectName": "SistemaVendas",
-      "projectPath": "G:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+      "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
       "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-      "outputPath": "G:\\Projetos\\SistemaVendas\\SistemaVendas\\obj\\",
+      "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4996,6 +4996,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5007,6 +5008,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5039,7 +5041,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
