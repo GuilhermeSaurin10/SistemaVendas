@@ -37,7 +37,7 @@ namespace SistemaVendas
             options.UseSqlServer(Configuration.GetConnectionString("MyStock")));
             services.AddHttpContextAccessor();
             services.AddSession();
-
+            services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
