@@ -36,7 +36,17 @@ namespace SistemaVendas
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("MyStock")));
             services.AddHttpContextAccessor();
-            services.AddSession();
+
+            services.AddDistributedMemoryCache();
+            services.AddSession(o =>
+            {
+                o.IdleTimeout = TimeSpan.FromMinutes(60);
+                o.Cookie.HttpOnly = true;
+                o.Cookie.IsEssential = true;
+            });
+            services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
+            services.AddRazorPages();
+
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
@@ -59,6 +69,8 @@ namespace SistemaVendas
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseSession();
+
+
 
             app.UseMvc(routes =>
             {
