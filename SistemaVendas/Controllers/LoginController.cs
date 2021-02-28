@@ -58,14 +58,13 @@ namespace SistemaVendas.Controllers
                     HttpContextAcessor.HttpContext.Session.SetInt32(Sessao.CODIGO_USUARIO, (int)usuario.Codigo);
                     HttpContextAcessor.HttpContext.Session.SetInt32(Sessao.LOGADO, 1);
 
-                    RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home");
                 }
-                return View(model);
             }
             else
             {
                 return View(model);
             }
-                    }
+         }
     }
 }

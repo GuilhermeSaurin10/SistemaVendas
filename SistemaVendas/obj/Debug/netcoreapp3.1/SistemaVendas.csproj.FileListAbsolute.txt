@@ -198,6 +198,12 @@ G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.dl
 G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.pdb
 G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.genruntimeconfig.cache
 G:\Projetos\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Razor\Views\Error\Index.cshtml.g.cs
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.AssemblyInfoInputs.cache
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.AssemblyInfo.cs
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csproj.CoreCompileInputs.cache
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.MvcApplicationPartsAssemblyInfo.cache
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.RazorAssemblyInfo.cache
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.RazorAssemblyInfo.cs
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\SistemaVendas.exe
@@ -241,13 +247,6 @@ E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\ru
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csprojAssemblyReference.cache
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.AssemblyInfoInputs.cache
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.AssemblyInfo.cs
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csproj.CoreCompileInputs.cache
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.MvcApplicationPartsAssemblyInfo.cache
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.RazorAssemblyInfo.cache
-E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.RazorAssemblyInfo.cs
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\staticwebassets\SistemaVendas.StaticWebAssets.Manifest.cache
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\staticwebassets\SistemaVendas.StaticWebAssets.xml
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\scopedcss\bundle\SistemaVendas.styles.css
