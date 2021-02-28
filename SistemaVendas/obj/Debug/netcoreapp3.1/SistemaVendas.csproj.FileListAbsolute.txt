@@ -280,3 +280,4 @@ E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Si
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.dll
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.pdb
 E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.genruntimeconfig.cache
+E:\Projetos\SistemaVendas\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\SistemaVendas.csprojAssemblyReference.cache

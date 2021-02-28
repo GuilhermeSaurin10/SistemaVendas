@@ -1,7 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Http;
 @inject IHttpContextAccessor HttpContexto;
 
-@{ 
+@{
     var logado = 0;
     var nomeUsuario = string.Empty;
 
@@ -13,7 +13,8 @@
             nomeUsuario = HttpContexto.HttpContext.Session.GetString(SistemaVendas.Helpers.Sessao.NOME_USUARIO);
         }
     }
-    catch {
+    catch
+    {
         HttpContexto.HttpContext.Response.Redirect("/Login");
     }
 }
@@ -32,7 +33,7 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/img/logo.png" height="20"/>
+                    <img src="~/img/logo.png" height="20" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -51,16 +52,20 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - My Stock - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <div class="container-fluid">
+        <div class="col-xl-12">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
+    </div>
+    <footer class="border-top footer text-muted">
+
+        <div class="col-xl-12">
+            <div class="container-fluid">
+                &copy; 2020 - My Stock - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+            </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

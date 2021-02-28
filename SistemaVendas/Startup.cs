@@ -2,6 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aplicacao.Servico.Interfaces;
+using Dominio.Interfaces;
+using Dominio.Servicos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -44,6 +47,13 @@ namespace SistemaVendas
                 o.Cookie.HttpOnly = true;
                 o.Cookie.IsEssential = true;
             });
+
+            //Serviço Aplicação
+            services.AddScoped<IServicoAplicacaoCategoria, ServicoAplicacaoCategoria>();
+
+            //Domínio
+            services.AddScoped<IServicoCategoria, ServicoCategoria>();
+
             services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
             services.AddRazorPages();
 

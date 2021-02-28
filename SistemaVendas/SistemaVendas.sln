@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVendas", "SistemaVendas.csproj", "{2E33DCD8-6156-48BA-B2AD-73A15FCB9FC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicacao", "Aplicacao.csproj", "{2E33DCD8-6156-48BA-B2AD-73A15FCB9FC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Aplicação", "1-Aplicação", "{85D31628-1C30-4A07-B373-31B727D91B3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domínio", "2-Domínio", "{CDF5E4E7-4C98-4CAF-9552-645E41777E04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Repositório", "3-Repositório", "{BAA7C1B2-18EC-4E21-8A78-28A5C75C4D70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infraestrutura", "4-Infraestrutura", "{3318E9E1-646C-45C0-B3D4-E3869E8B2974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "..\Dominio\Dominio.csproj", "{B36EEDE6-43A8-492F-B55D-643ED3CC7833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,17 @@ Global
 		{2E33DCD8-6156-48BA-B2AD-73A15FCB9FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E33DCD8-6156-48BA-B2AD-73A15FCB9FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E33DCD8-6156-48BA-B2AD-73A15FCB9FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36EEDE6-43A8-492F-B55D-643ED3CC7833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36EEDE6-43A8-492F-B55D-643ED3CC7833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36EEDE6-43A8-492F-B55D-643ED3CC7833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36EEDE6-43A8-492F-B55D-643ED3CC7833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E33DCD8-6156-48BA-B2AD-73A15FCB9FC6} = {85D31628-1C30-4A07-B373-31B727D91B3F}
+		{B36EEDE6-43A8-492F-B55D-643ED3CC7833} = {CDF5E4E7-4C98-4CAF-9552-645E41777E04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {157EB9FB-23C0-4A42-B10E-681E4F580BF8}
