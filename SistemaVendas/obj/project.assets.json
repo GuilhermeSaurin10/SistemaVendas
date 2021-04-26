@@ -4993,11 +4993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
+      "projectUniqueName": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
       "projectName": "Aplicacao",
-      "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
+      "projectPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
       "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\obj\\",
+      "outputPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5014,8 +5014,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj": {
-              "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj"
+            "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Dominio\\Dominio.csproj"
             }
           }
         }
