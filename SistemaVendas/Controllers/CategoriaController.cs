@@ -71,7 +71,7 @@ namespace SistemaVendas.Controllers
         //[HttpGet]
         //public IActionResult Excluir(int id)
         //{
-        //    var ent = new Categoria() { Codigo = id , Descricao = "!"};
+        //    var ent = new Categoria() { Codigo = id, Descricao = "!" };
         //    mContext.Attach(ent);
         //    mContext.Remove(ent);
         //    mContext.SaveChanges();
