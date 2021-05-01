@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Aplicacao.Servico.Interfaces;
 using Dominio.Interfaces;
+using Dominio.Repositorio;
 using Dominio.Servicos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,6 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Repositorio.Entidades;
 using SistemaVendas.DAL;
 
 namespace SistemaVendas
@@ -36,8 +38,15 @@ namespace SistemaVendas
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            //Fica por enquanto, pois o projeto ainda não foi completamente migrado para o padrão DDD
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("MyStock")));
+
+            //A princípio, será a definitiva
+            services.AddDbContext<Repositorio.Contexto.ApplicationDbContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("MyStock")));
+
+
             services.AddHttpContextAccessor();
 
             services.AddDistributedMemoryCache();
@@ -53,6 +62,9 @@ namespace SistemaVendas
 
             //Domínio
             services.AddScoped<IServicoCategoria, ServicoCategoria>();
+
+            //Repositório
+            services.AddScoped<IRepositorioCategoria, RepositorioCategoria>();
 
             services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
             services.AddRazorPages();

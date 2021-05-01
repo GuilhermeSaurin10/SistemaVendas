@@ -168,3 +168,5 @@ E:\Projetos\SistemaVenda\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Apl
 E:\Projetos\SistemaVenda\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Aplicacao.dll
 E:\Projetos\SistemaVenda\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Aplicacao.pdb
 E:\Projetos\SistemaVenda\SistemaVendas\SistemaVendas\obj\Debug\netcoreapp3.1\Aplicacao.genruntimeconfig.cache
+E:\Projetos\SistemaVenda\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\Repositorio.dll
+E:\Projetos\SistemaVenda\SistemaVendas\SistemaVendas\bin\Debug\netcoreapp3.1\Repositorio.pdb
