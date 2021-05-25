@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
+    "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
+    "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectUniqueName": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "projectName": "SistemaVendas",
-        "projectPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectPath": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\obj\\",
+        "outputPath": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
