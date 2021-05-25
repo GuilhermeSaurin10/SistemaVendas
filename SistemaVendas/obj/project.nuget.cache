@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nd5SDVi/xBx1i+DSkXWlNbIEcjIj6UGMXpEZOblFyPwVIGO/TY3+u22zkyVr6tiC5I8ZlAHkWneQA1ZXO90Lng==",
+  "dgSpecHash": "28nWzuIxx6Lq154ddyVcyzT2ItdYF+IdPzrqNO+dlaCf8HPCKpeFXrGz7+AatQ5z7CJ5o8jCE+G+1BcdJhCUqQ==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
+  "projectFilePath": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

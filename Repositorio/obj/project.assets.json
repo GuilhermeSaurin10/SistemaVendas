@@ -658,11 +658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+      "projectUniqueName": "F:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
       "projectName": "Repositorio",
-      "projectPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+      "projectPath": "F:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
       "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Repositorio\\obj\\",
+      "outputPath": "F:\\Projetos\\SistemaVendas\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -679,8 +679,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Dominio\\Dominio.csproj": {
-              "projectPath": "E:\\Projetos\\SistemaVenda\\SistemaVendas\\Dominio\\Dominio.csproj"
+            "F:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj": {
+              "projectPath": "F:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -715,7 +715,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
