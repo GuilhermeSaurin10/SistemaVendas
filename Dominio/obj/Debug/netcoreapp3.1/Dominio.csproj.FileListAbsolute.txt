@@ -1,0 +1,10 @@
+F:\Projetos\SistemaVendas\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+F:\Projetos\SistemaVendas\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+F:\Projetos\SistemaVendas\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

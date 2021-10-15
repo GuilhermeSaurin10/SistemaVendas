@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Aplicacao.Servico;
+using Aplicacao.Servico.Intefaces;
+using Dominio.Interfaces;
+using Dominio.Servicos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -27,8 +31,7 @@ namespace SistemaVendas
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CookiePolicyOptions>(options =>
-            {
-                //
+            {                
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
@@ -44,8 +47,15 @@ namespace SistemaVendas
                 o.Cookie.HttpOnly = true;
                 o.Cookie.IsEssential = true;
             });
+
             services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
             services.AddRazorPages();
+
+            //Serviço Aplicação
+            services.AddScoped<IServicoAplicacaoCategoria, ServicoAplicacaoCategoria>();
+
+            //Domínio
+            services.AddScoped<IServicoCategoria, ServicoCategoria>();
 
             services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
