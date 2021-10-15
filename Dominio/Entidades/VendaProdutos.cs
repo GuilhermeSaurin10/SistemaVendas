@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace SistemaVendas.Dominio.Entidades
+﻿namespace SistemaVendas.Dominio.Entidades
 {
     public class VendaProdutos
     {
@@ -14,8 +9,5 @@ namespace SistemaVendas.Dominio.Entidades
         public decimal ValorTotal { get; set; }
         public Produto Produto { get; set; }
         public Venda Venda { get; set; }
-
-
-
     }
 }

@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using SistemaVendas.DAL;
 using SistemaVendas.Entidades;
 using SistemaVendas.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SistemaVendas.Controllers
 {
@@ -36,7 +35,6 @@ namespace SistemaVendas.Controllers
             {
                 Value = string.Empty,
                 Text = string.Empty
-
             }); ;
 
             foreach (var item in mContext.Produto.ToList())
@@ -58,7 +56,6 @@ namespace SistemaVendas.Controllers
             {
                 Value = string.Empty,
                 Text = string.Empty
-
             }); ;
 
             foreach (var item in mContext.Cliente.ToList())
@@ -86,7 +83,6 @@ namespace SistemaVendas.Controllers
                 viewModel.Data = entidade.Data;
                 viewModel.CodigoCliente = entidade.CodigoCliente;
                 viewModel.Total = entidade.Total;
-
             }
 
             return View(viewModel);
@@ -136,7 +132,6 @@ namespace SistemaVendas.Controllers
             mContext.SaveChanges();
 
             return RedirectToAction("Index");
-
         }
 
         [HttpGet("LerValorProduto/{CodigoProduto}")]

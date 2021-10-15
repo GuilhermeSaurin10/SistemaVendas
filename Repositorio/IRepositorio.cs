@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Repositorio.Interfaces
 {
     public interface IRepositorio<TEntidade>
-        where TEntidade: class
+        where TEntidade : class
     {
         void Create(TEntidade Entity);
+
         TEntidade Read<T>(int id);
+
         void Delete(int id);
+
         IEnumerable<TEntidade> Read();
     }
 }

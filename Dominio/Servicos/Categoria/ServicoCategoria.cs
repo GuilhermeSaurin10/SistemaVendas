@@ -3,13 +3,13 @@ using Dominio.Repositorio;
 using SistemaVendas.Dominio.Entidades;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Dominio.Servicos
 {
     public class ServicoCategoria : IServicoCategoria
     {
-        IRepositorioCategoria RepositorioCategoria;
+        private IRepositorioCategoria RepositorioCategoria;
+
         public ServicoCategoria(IRepositorioCategoria repositorioCategoria)
         {
             RepositorioCategoria = repositorioCategoria;

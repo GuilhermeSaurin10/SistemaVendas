@@ -1,17 +1,11 @@
 ﻿using Aplicacao.Servico.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SistemaVendas.DAL;
-using SistemaVendas.Entidades;
-using SistemaVendas.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace SistemaVendas.Controllers
 {
     public class CategoriaController : Controller
     {
-        readonly IServicoAplicacaoCategoria ServicoAplicacaoCategoria;
+        private readonly IServicoAplicacaoCategoria ServicoAplicacaoCategoria;
 
         public CategoriaController(IServicoAplicacaoCategoria servicoAplicacaoCategoria)
         {

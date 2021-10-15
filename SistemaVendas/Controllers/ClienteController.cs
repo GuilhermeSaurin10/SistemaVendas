@@ -38,7 +38,6 @@ namespace SistemaVendas.Controllers
                 viewModel.CNPJ_CPF = entidade.CNPJ_CPF;
                 viewModel.Email = entidade.Email;
                 viewModel.Celular = entidade.Celular;
-
             }
 
             return View(viewModel);
@@ -86,7 +85,6 @@ namespace SistemaVendas.Controllers
             mContext.SaveChanges();
 
             return RedirectToAction("Index");
-
         }
     }
 }

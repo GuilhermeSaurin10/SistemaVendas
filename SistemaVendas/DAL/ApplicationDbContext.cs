@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SistemaVendas.Entidades;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SistemaVendas.DAL
 {
@@ -16,7 +12,9 @@ namespace SistemaVendas.DAL
         public DbSet<Venda> Venda { get; set; }
         public DbSet<VendaProdutos> VendaProdutos { get; set; }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -33,7 +31,6 @@ namespace SistemaVendas.DAL
                 .HasOne(x => x.Produto)
                 .WithMany(y => y.Vendas)
                 .HasForeignKey(x => x.CodigoProduto);
-
         }
     }
 }

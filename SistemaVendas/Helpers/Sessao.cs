@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace SistemaVendas.Helpers
+﻿namespace SistemaVendas.Helpers
 {
     public class Sessao
     {
@@ -11,6 +6,5 @@ namespace SistemaVendas.Helpers
         public static string NOME_USUARIO = "NOME_USUARIO";
         public static string EMAIL_USUARIO = "EMAIL_USUARIO";
         public static string LOGADO = "LOGADO";
-
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SistemaVendas.Models
 {
@@ -21,7 +17,5 @@ namespace SistemaVendas.Models
 
         [Required(ErrorMessage = "Informe o Celular do Cliente!")]
         public string Celular { get; set; }
-
-
     }
 }

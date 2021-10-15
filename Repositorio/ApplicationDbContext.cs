@@ -12,7 +12,9 @@ namespace Repositorio.Contexto
         public DbSet<Venda> Venda { get; set; }
         public DbSet<VendaProdutos> VendaProdutos { get; set; }
 
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+        }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -29,7 +31,6 @@ namespace Repositorio.Contexto
                 .HasOne(x => x.Produto)
                 .WithMany(y => y.Vendas)
                 .HasForeignKey(x => x.CodigoProduto);
-
         }
     }
 }

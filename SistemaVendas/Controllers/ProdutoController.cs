@@ -33,7 +33,6 @@ namespace SistemaVendas.Controllers
             {
                 Value = string.Empty,
                 Text = string.Empty
-
             }); ;
 
             foreach (var item in mContext.Categoria.ToList())
@@ -61,7 +60,6 @@ namespace SistemaVendas.Controllers
                 viewModel.Quantidade = entidade.Quantidade;
                 viewModel.Valor = entidade.Valor;
                 viewModel.CodigoCategoria = entidade.CodigoCategoria;
-
             }
 
             return View(viewModel);
@@ -110,7 +108,6 @@ namespace SistemaVendas.Controllers
             mContext.SaveChanges();
 
             return RedirectToAction("Index");
-
         }
     }
 }

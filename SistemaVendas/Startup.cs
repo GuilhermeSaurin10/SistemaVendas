@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Aplicacao.Servico.Interfaces;
 using Dominio.Interfaces;
 using Dominio.Repositorio;
@@ -9,13 +5,13 @@ using Dominio.Servicos;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Repositorio.Entidades;
 using SistemaVendas.DAL;
+using System;
 
 namespace SistemaVendas
 {
@@ -45,7 +41,6 @@ namespace SistemaVendas
             //A princípio, será a definitiva
             services.AddDbContext<Repositorio.Contexto.ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("MyStock")));
-
 
             services.AddHttpContextAccessor();
 
@@ -92,8 +87,6 @@ namespace SistemaVendas
             app.UseCookiePolicy();
             app.UseSession();
 
-
-
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -103,4 +96,3 @@ namespace SistemaVendas
         }
     }
 }
-

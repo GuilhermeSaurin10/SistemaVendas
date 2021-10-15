@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using SistemaVendas.DAL;
 using SistemaVendas.Helpers;
 using SistemaVendas.Models;
+using System.Linq;
 
 namespace SistemaVendas.Controllers
 {
@@ -26,7 +22,7 @@ namespace SistemaVendas.Controllers
         {
             if (id != null)
             {
-                if(id == 0)
+                if (id == 0)
                 {
                     HttpContextAcessor.HttpContext.Session.Clear();
                 }
@@ -42,8 +38,8 @@ namespace SistemaVendas.Controllers
 
             if (ModelState.IsValid)
             {
-              var Senha = Criptografia.GetMd5Hash(model.Senha);
-              var usuario = mContext.Usuario.Where(x => x.Email == model.Email && x.Senha == Senha).FirstOrDefault();
+                var Senha = Criptografia.GetMd5Hash(model.Senha);
+                var usuario = mContext.Usuario.Where(x => x.Email == model.Email && x.Senha == Senha).FirstOrDefault();
 
                 if (usuario == null)
                 {
@@ -65,6 +61,6 @@ namespace SistemaVendas.Controllers
             {
                 return View(model);
             }
-         }
+        }
     }
 }
