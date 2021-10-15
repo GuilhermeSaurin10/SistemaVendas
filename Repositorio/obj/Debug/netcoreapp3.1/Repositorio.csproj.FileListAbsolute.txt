@@ -1,0 +1,13 @@
+F:\Projetos\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.deps.json
+F:\Projetos\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.dll
+F:\Projetos\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.pdb
+F:\Projetos\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Dominio.dll
+F:\Projetos\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Dominio.pdb
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.AssemblyReference.cache
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.AssemblyInfoInputs.cache
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.AssemblyInfo.cs
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CoreCompileInputs.cache
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CopyComplete
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.dll
+F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.pdb
