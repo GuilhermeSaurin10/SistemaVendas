@@ -10,7 +10,7 @@ using System.Linq;
 namespace SistemaVendas.Controllers
 {
     public class CategoriaController : Controller
-    {        
+    {
         readonly IServicoAplicacaoCategoria ServicoAplicacaoCategoria;
 
         public CategoriaController(IServicoAplicacaoCategoria servicoAplicacaoCategoria)
@@ -19,65 +19,45 @@ namespace SistemaVendas.Controllers
         }
 
         public IActionResult Index()
-        {            
+        {
             return View(ServicoAplicacaoCategoria.Listagem());
         }
 
-        //[HttpGet]
-        //public IActionResult Cadastro(int? id)
-        //{
-        //    CategoriaViewModel viewModel = new CategoriaViewModel();
+        [HttpGet]
+        public IActionResult Cadastro(int? id)
+        {
+            CategoriaViewModel viewModel = new CategoriaViewModel();
 
-        //    if (id != null)
-        //    {
-        //        var entidade = mContext.Categoria.Where(x => x.Codigo == id).FirstOrDefault();
-        //        viewModel.Codigo = entidade.Codigo;
-        //        viewModel.Descricao = entidade.Descricao;
-        //    }
+            if (id != null)
+            {
+                viewModel = ServicoAplicacaoCategoria.CarregarRegistro((int)id);
+            }
 
-        //    return View();
-        //}
+            return View(viewModel);
+        }
 
-        //[HttpPost]
-        //public IActionResult Cadastro(CategoriaViewModel entidade)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        Categoria objCategoria = new Categoria()
-        //        {
-        //            Codigo = entidade.Codigo,
-        //            Descricao = entidade.Descricao
-        //        };
+        [HttpPost]
+        public IActionResult Cadastro(CategoriaViewModel entidade)
+        {
+            if (ModelState.IsValid)
+            {
+                ServicoAplicacaoCategoria.Cadastrar(entidade);
+            }
+            else
+            {
+                return View(entidade);
+            }
 
-        //        if (entidade.Codigo == null)
-        //        {
-        //            mContext.Categoria.Add(objCategoria);
-        //        }
-        //        else
-        //        {
-        //            mContext.Entry(objCategoria).State = EntityState.Modified;
-        //        }
+            return RedirectToAction("Index");
+        }
 
-        //        mContext.SaveChanges();
-        //    }
-        //    else
-        //    {
-        //        return View(entidade);
-        //    }
+        [HttpGet]
+        public IActionResult Excluir(int id)
+        {
+            ServicoAplicacaoCategoria.Excluir(id);
 
-        //    return RedirectToAction("Index");
-        //}
+            return RedirectToAction("Index");
 
-        //[HttpGet]
-        //public IActionResult Excluir(int id)
-        //{
-        //    var ent = new Categoria() { Codigo = id , Descricao = "!"};
-        //    mContext.Attach(ent);
-        //    mContext.Remove(ent);
-        //    mContext.SaveChanges();
-
-        //    return RedirectToAction("Index");
-
-        //}
+        }
     }
 }
