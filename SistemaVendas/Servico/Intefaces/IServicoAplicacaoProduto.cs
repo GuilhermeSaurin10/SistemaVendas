@@ -9,8 +9,8 @@ namespace Aplicacao.Servico.Intefaces
     public interface IServicoAplicacaoProduto
     {
         IEnumerable<ProdutoViewModel> Listagem();
-        ProdutoViewModel CarregarRegistro(int codigoCliente);
-        void Cadastrar(ProdutoViewModel cliente);
+        ProdutoViewModel CarregarRegistro(int codigoProduto);
+        void Cadastrar(ProdutoViewModel produto);
         void Excluir(int id);
     }
 }
