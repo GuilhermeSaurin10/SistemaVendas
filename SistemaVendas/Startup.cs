@@ -48,12 +48,15 @@ namespace SistemaVendas
 
             //Serviço Aplicação
             services.AddScoped<IServicoAplicacaoCategoria, ServicoAplicacaoCategoria>();
+            services.AddScoped<IServicoAplicacaoCliente, ServicoAplicacaoCliente>();
 
             //Domínio
             services.AddScoped<IServicoCategoria, ServicoCategoria>();
+            services.AddScoped<IServicoCliente, ServicoCliente>();
 
             //Repositório
             services.AddScoped<IRepositorioCategoria, RepositorioCategoria>();
+            services.AddScoped<IRepositorioCliente, RepositorioCliente>();
 
 
 
