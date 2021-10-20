@@ -11,7 +11,7 @@
     var disabled = (Model.Codigo == null) ? "disabled" : string.Empty;
 }
 
-<form asp-controller="Cliente" asp-action="Cadastro" method="post">
+<form asp-controller="Produto" asp-action="Cadastro" method="post">
     <input type="hidden" asp-for="Codigo" values="@Model.Codigo" />
 
     <div class="form-group">
