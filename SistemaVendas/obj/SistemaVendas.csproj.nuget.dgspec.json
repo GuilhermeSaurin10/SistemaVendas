@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
+    "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
   },
   "projects": {
-    "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
+    "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "projectName": "SistemaVendas",
-        "projectPath": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-        "outputPath": "F:\\Projetos\\SistemaVendas\\SistemaVendas\\obj\\",
+        "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Arquivos de Programas\\Visual Studio 2022\\Components\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +67,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -71,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
