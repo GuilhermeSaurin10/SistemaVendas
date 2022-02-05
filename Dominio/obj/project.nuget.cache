@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zVf++pKXbinzGYAPqFGegF0FAgc//Ucbo3sevmcGrRWLR0OrSGIEHuHOsp4P5zRqfj0RD8Solg5YLmwjGSj0SQ==",
+  "dgSpecHash": "WDo1kGl5tJAbTm6VfP6p7U8+UwTBlbILISkQVcaXrOIfRU2Ns2Cb8oJzWxHbtWvvpFRi/AdUlT70rvc+tcVS+g==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

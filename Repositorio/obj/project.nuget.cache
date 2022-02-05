@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QoLy/UNQQKf9LMPym9CdMh7PYtvIhkMOJSgYcQ7wjOwwDdiXDgiYDJ7yjSMVUCNehwpCLKjvEdYXMHp11bdxsQ==",
+  "dgSpecHash": "7gcqFROYm48A07I1xbk9RcVYDHRYhClcUXvqk1JqXzLyVYYVxF5vOViwSmSNhTlDJ2n7ASoZPv5JPFYruyZmAA==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+  "projectFilePath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
@@ -17,10 +17,7 @@
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Guidu\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

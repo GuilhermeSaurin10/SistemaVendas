@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\Guidu\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Guidu\\.nuget\\packages"
+      "C:\\Users\\Guidu\\.nuget\\packages",
+      "E:\\Arquivos de Programas\\Visual Studio 2022\\Components\\NuGetPackages"
     ]
   }
 }

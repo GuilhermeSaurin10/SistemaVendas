@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qla6maCbufOe/Onvcn/nI0Ajz558keJB8Ya2q97DYH4wja+d7QyFwcwXAeRWtniWLBYP/uOAcU3uQxOKAOtAOw==",
+  "dgSpecHash": "6Gos1xjuCeysI8bHPzoesXyXcqZoLp8LLZSuChv9V5R3Pu6BrgAx+i+YtnWIpxk2JP4T8XiVVeFCmWAPwEKhJQ==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
+  "projectFilePath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -93,11 +93,7 @@
     "C:\\Users\\Guidu\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\Guidu\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

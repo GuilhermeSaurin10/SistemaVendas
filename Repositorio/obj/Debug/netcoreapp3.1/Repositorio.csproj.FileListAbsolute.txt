@@ -11,3 +11,16 @@ F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj
 F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CopyComplete
 F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.dll
 F:\Projetos\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.pdb
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.deps.json
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.dll
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Repositorio.pdb
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Dominio.dll
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\bin\Debug\netcoreapp3.1\Dominio.pdb
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.AssemblyReference.cache
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.AssemblyInfoInputs.cache
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.AssemblyInfo.cs
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CoreCompileInputs.cache
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.csproj.CopyComplete
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.dll
+E:\Projetos\SistemaVendas\SistemaVendas\Repositorio\obj\Debug\netcoreapp3.1\Repositorio.pdb

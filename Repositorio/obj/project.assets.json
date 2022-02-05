@@ -550,11 +550,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+      "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj",
       "projectName": "Repositorio",
-      "projectPath": "E:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+      "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj",
       "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\SistemaVendas\\Repositorio\\obj\\",
+      "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\Arquivos de Programas\\Visual Studio 2022\\Components\\NuGetPackages"
@@ -575,8 +575,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj": {
-              "projectPath": "E:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj"
+            "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -606,26 +606,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

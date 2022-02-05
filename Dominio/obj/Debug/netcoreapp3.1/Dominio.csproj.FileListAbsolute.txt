@@ -8,3 +8,13 @@ F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.c
 F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 F:\Projetos\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+E:\Projetos\SistemaVendas\SistemaVendas\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
