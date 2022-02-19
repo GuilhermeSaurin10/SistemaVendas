@@ -5,7 +5,12 @@
       "ProjectGuid": "2e33dcd8-6156-48ba-b2ad-73a15fcb9fc6",
       "DisplayName": "Aplicacao",
       "ColorIndex": 0
+    },
+    "f439cad7-2e5a-4ed6-a0ae-412c1c666290": {
+      "ProjectGuid": "f439cad7-2e5a-4ed6-a0ae-412c1c666290",
+      "DisplayName": "Repositorio",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

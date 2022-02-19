@@ -16,7 +16,7 @@ namespace Repositorio.Entidades
 
         public override IEnumerable<Produto> Read()
         {
-            return DbSetContext.Include(x=>x.Categoria).AsNoTracking().ToList();
+            return DbSetContext.Include(x => x.Categoria).AsNoTracking().ToList();
         }
     }
 }
