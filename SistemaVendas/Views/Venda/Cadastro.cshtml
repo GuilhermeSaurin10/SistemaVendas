@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-2">
             <label>Quantidade</label>
-            <input id="txtQtde" type="number" class="form-control" onchange="CalcularSubTotal()" />
+            <input id="txtQtde" type="number" class="form-control" onclick="CalcularSubTotal()" />
         </div>
         <div class="col-md-2">
             <label>Sub-Total</label>
@@ -114,7 +114,7 @@
             "CodigoProduto": CodigoProduto.value,
             "Quantidade": Qtde.value,
             "ValorUnitario": ValorUnitario.value,
-            "ValorTotal": ValorTotal.value,
+            "ValorTotal": SubTotal,
         })        
 
         document.getElementById("txtJsonProdutos").value = JSON.stringify(Items.Produtos);
@@ -130,18 +130,17 @@
         gridProdutos.innerHTML += linhaGrid;
 
         var total = Number(document.getElementById("txtTotal").value.toString().replace(",", ".")) + Number(SubTotal);
-        documento.getElementById("txtTotal").value = FixaDuasCasasDecimais(total).replace(".",",") ;
-
-        documento.getElementById("txtQtde").value = "";
-        documento.getElementById("txtSubTotal").value = "";
-        documento.getElementById("txtPrecoUnitario").value = "";
-        documento.getElementById("cboProduto").selectedIndex = -1;
+        document.getElementById("txtTotal").value = FixaDuasCasasDecimais(total).replace(".",",");
+        document.getElementById("txtQtde").value = "";
+        document.getElementById("txtSubTotal").value = "";
+        document.getElementById("txtPrecoUnitario").value = "";
+        document.getElementById("cboProduto").selectedIndex = -1;
 
     }
 
     function CalcularSubTotal() {
         var PrecoUnitario = document.getElementById("txtPrecoUnitario").value;
-        var SubTotal = PrecoUnitario * documento.getElementById("txtQtde").value;
+        var SubTotal = PrecoUnitario * document.getElementById("txtQtde").value;
         document.getElementById("txtSubTotal").value = FixaDuasCasasDecimais(SubTotal);
     }
 
@@ -168,7 +167,7 @@
     }
 
     function Excluir(Codigo) {
-        Request("\\Excluir\\" + Codigo);
+        Request("Excluir\\" + Codigo);
     }
 
     function Request(request) {

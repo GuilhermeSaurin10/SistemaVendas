@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6Gos1xjuCeysI8bHPzoesXyXcqZoLp8LLZSuChv9V5R3Pu6BrgAx+i+YtnWIpxk2JP4T8XiVVeFCmWAPwEKhJQ==",
+  "dgSpecHash": "OS4pZiLy/GqG0ldqeL1XCrfzQjVJyJUt0dnfnWhzv+K2wfoS+9j+r4pOmC33XjFTmJS2GbdctSHt8F5PyVomjg==",
   "success": true,
   "projectFilePath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
   "expectedPackageFiles": [
@@ -67,7 +67,7 @@
     "C:\\Users\\Guidu\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
-    "C:\\Users\\Guidu\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Guidu\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Guidu\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",

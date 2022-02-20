@@ -1,4 +1,5 @@
-﻿using SistemaVendas.Models;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using SistemaVendas.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,7 @@ namespace Aplicacao.Servico.Intefaces
 {
     public interface IServicoAplicacaoCliente
     {
+        IEnumerable<SelectListItem> ListaClientesDropDownList();
         IEnumerable<ClienteViewModel> Listagem();
         ClienteViewModel CarregarRegistro(int codigoCategoria);
         void Cadastrar(ClienteViewModel categoria);

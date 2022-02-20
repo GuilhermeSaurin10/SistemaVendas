@@ -1,5 +1,6 @@
 ﻿using Aplicacao.Servico.Intefaces;
 using Dominio.Interfaces;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using SistemaVendas.Dominio.Entidades;
 using SistemaVendas.Models;
 using System;
@@ -16,7 +17,24 @@ namespace Aplicacao.Servico
         {
             ServicoProduto = servicoProduto;
         }
+        public IEnumerable<SelectListItem> ListaProdutosDropDownList()
+        {
+            List<SelectListItem> retorno = new List<SelectListItem>();
 
+            var lista = this.Listagem();
+
+            foreach (var item in lista)
+            {
+                SelectListItem produto = new SelectListItem()
+                {
+                    Value = item.Codigo.ToString(),
+                    Text = item.Descricao
+                };
+                retorno.Add(produto);
+            }
+
+            return retorno;
+        }
         public void Cadastrar(ProdutoViewModel produto)
         {
             Produto item = new Produto()
