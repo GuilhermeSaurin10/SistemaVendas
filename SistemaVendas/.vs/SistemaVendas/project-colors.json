@@ -10,7 +10,12 @@
       "ProjectGuid": "f439cad7-2e5a-4ed6-a0ae-412c1c666290",
       "DisplayName": "Repositorio",
       "ColorIndex": 1
+    },
+    "a9395f11-6c83-47a0-b713-65a953969bb2": {
+      "ProjectGuid": "a9395f11-6c83-47a0-b713-65a953969bb2",
+      "DisplayName": "Dominio",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
