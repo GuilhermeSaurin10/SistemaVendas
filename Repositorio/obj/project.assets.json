@@ -653,19 +653,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guidu\\.nuget\\packages\\": {}
+    "C:\\Users\\Guidu\\.nuget\\packages\\": {},
+    "D:\\Arquivos de Programas\\SDKS\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+      "projectUniqueName": "D:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
       "projectName": "Repositorio",
-      "projectPath": "F:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+      "projectPath": "D:\\Projetos\\SistemaVendas\\Repositorio\\Repositorio.csproj",
       "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-      "outputPath": "F:\\Projetos\\SistemaVendas\\Repositorio\\obj\\",
+      "outputPath": "D:\\Projetos\\SistemaVendas\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Arquivos de Programas\\SDKS\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -679,8 +684,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "F:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj": {
-              "projectPath": "F:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj"
+            "D:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj": {
+              "projectPath": "D:\\Projetos\\SistemaVendas\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -715,7 +720,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
