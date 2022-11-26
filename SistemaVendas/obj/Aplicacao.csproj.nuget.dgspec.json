@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj": {}
+    "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj": {
+    "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj",
+        "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\obj\\",
+        "outputPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Arquivos de Programas\\Visual Studio 2022\\Components\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,25 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj": {
+    "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Repositorio\\Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+        "projectUniqueName": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Repositorio\\Repositorio.csproj",
         "projectName": "Repositorio",
-        "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj",
+        "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Repositorio\\Repositorio.csproj",
         "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\obj\\",
+        "outputPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Repositorio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Arquivos de Programas\\Visual Studio 2022\\Components\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,8 +83,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj": {
-                "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj"
+              "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj": {
+                "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -117,7 +110,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -126,25 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj": {
+    "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
+        "projectUniqueName": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
         "projectName": "Aplicacao",
-        "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
+        "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\Aplicacao.csproj",
         "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas\\obj\\",
+        "outputPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "E:\\Arquivos de Programas\\Visual Studio 2022\\Components\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,11 +148,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj": {
-                "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Dominio\\Dominio.csproj"
+              "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj": {
+                "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Dominio\\Dominio.csproj"
               },
-              "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj": {
-                "projectPath": "E:\\Projetos\\SistemaVendas\\SistemaVendas\\Repositorio\\Repositorio.csproj"
+              "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Repositorio\\Repositorio.csproj": {
+                "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\Repositorio\\Repositorio.csproj"
               }
             }
           }
@@ -200,7 +190,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -212,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
