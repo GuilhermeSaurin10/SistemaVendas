@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
+    "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
+    "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectUniqueName": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "projectName": "SistemaVendas",
-        "projectPath": "D:\\Projetos\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
+        "projectPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\SistemaVendas.csproj",
         "packagesPath": "C:\\Users\\Guidu\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\SistemaVendas\\SistemaVendas\\obj\\",
+        "outputPath": "F:\\Projetos\\Meus Projetos\\SistemaVendasMVC\\SistemaVendas\\SistemaVendas\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Arquivos de Programas\\SDKS\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Guidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
